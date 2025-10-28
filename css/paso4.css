@@ -1,0 +1,286 @@
+header {
+    flex-basis: 250px;
+    background-color: #1ab1db;
+    color: white;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+  
+    z-index: 1000;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    flex-basis: 240px;
+    flex-basis: 250px;
+    text-align: center;
+}
+
+body {
+    margin-bottom: 130px;
+   
+}
+
+
+nav span {
+    flex-basis: 240px;
+    position: relative;
+    top: 10px;
+    left: -80px;
+    font-size: 100px;
+}
+
+nav h1 {
+    flex-basis: 240px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 85px;
+    text-align: right;
+    position: relative;
+    top: 20px;
+    left: -100px;
+}
+
+nav img {
+    flex-basis: 250px;
+    position: fixed;
+    top: 2px;
+    left: 100px;
+    border: 5px;
+    min-height: 100px;
+    width: 150px;
+}
+
+.slider-container {
+    flex-basis: 250px;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+}
+
+.slider-container img {
+    flex-basis: 250px;
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll
+}
+
+.slider-container img {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    z-index: 1
+}
+
+
+.cajon-venta {
+    display: flex;
+    display: block;
+    border: 2px solid #6c6b6b;
+    border-radius: 5px;
+    flex-direction: row;
+    padding: 15px;
+    margin: 8px;
+    width: 250px;
+    height: 490px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: 4;
+    text-align: center;
+}
+
+.cajon-venta img {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+}
+
+button {
+    padding: 10px 50px;
+    background-color: #e88606;
+    color: rgb(3, 2, 2);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    position: sticky;
+    top: 1100px;
+    left: 40px;
+    align-items: center;
+    z-index: 100;
+}
+
+.material-symbols-outlined {
+    flex-basis: 100px;
+    display: block;
+    font-size: 2rem;
+    margin-left: 20px;
+    float: left;
+    top: 5px;
+    left: 1550px;
+    font-size: 50px;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caja-venta {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.caja-venta img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #030303;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #f7f6f6;
+
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: #f5f3f3;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+
+footer nav a:hover {
+    color: #00bfff;
+    transform: scale(1.1);
+}
+
+b {
+    font-size: 20px;
+}
+
+mark {
+    background-color: crimson;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    align-items: center;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#reservas {
+    padding: 4rem 1rem;
+    background: white;
+    text-align: center;
+}
+
+#reservas form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: auto;
+}
+
+#reservas input,
+#reservas textarea {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-family: 'Open Sans';
+    width: 100%;
+    font-size: 1rem;
+}
+
+#reservas button {
+    background: var(--turquesa);
+    color: rgb(0, 0, 0);
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.whatsapp-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #25D366;
+    color: rgb(0, 0, 0);
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background: #1ebe5d;
+}
